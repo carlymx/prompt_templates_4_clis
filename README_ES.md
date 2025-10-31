@@ -1,74 +1,74 @@
 [Versión en Español](README_ES.md) | [English Version](README.md)
 
 
-# AI CLI Prompt Templates
+# Plantillas de Prompts para CLI de IA
 
-Professional collection of refined prompt templates for AI command-line tools.
+Colección profesional de plantillas de prompts depuradas para herramientas de IA por línea de comandos.
 
-## Disclaimer
+## Descargo de Responsabilidad
 
-I am not responsible for any outcomes resulting from the use of these prompt templates. Users assume all risks and responsibilities for:
+No me hago responsable de ningún resultado derivado del uso de estas plantillas de prompts. Los usuarios asumen todos los riesgos y responsabilidades por:
 
-- Any system modifications, file changes, or commands executed
-- Data loss, corruption, or unintended consequences
-- Security implications of running AI-generated commands
-- Compatibility issues with specific environments or setups
-- Performance impacts on systems or applications
+- Cualquier modificación del sistema, cambios en archivos o comandos ejecutados
+- Pérdida de datos, corrupción o consecuencias no deseadas
+- Implicaciones de seguridad al ejecutar comandos generados por IA
+- Problemas de compatibilidad con entornos o configuraciones específicas
+- Impactos en el rendimiento de sistemas o aplicaciones
 
-These templates are provided "as-is" for educational and productivity purposes. Since everything is in natural language, I encourage you to **review and modify any command** to fit your specific needs before testing.
+Estas plantillas se proporcionan "tal cual" con fines educativos y de productividad. Dado que todo está en lenguaje natural, te animo a **revisar y modificar cualquier comando** para adaptarlo a tus necesidades específicas antes de probarlo.
 
-Always:
-- Review commands before execution
-- Test in safe environments first
-- Maintain adequate backups
-- Understand the implications of each operation
-- Customize templates for your particular use case
+Siempre:
+- Revisa los comandos antes de ejecutarlos
+- Prueba primero en entornos seguros
+- Mantén copias de seguridad adecuadas
+- Comprende las implicaciones de cada operación
+- Personaliza las plantillas para tu caso de uso particular
 
-Use at your own discretion and risk.
+Úsalas bajo tu propia discreción y riesgo.
 
-## What is this?
+## ¿Qué es esto?
 
-Modern LLMs with agentic capabilities allow us to command the terminal through structured, natural language instructions. These prompt templates provide comprehensive workflows that guide AI assistants through complex procedures with clear objectives.
+Los LLMs modernos con capacidades agenticas nos permiten comandar la terminal mediante instrucciones estructuradas en lenguaje natural. Estas plantillas de prompts proporcionan flujos de trabajo completos que guían a los asistentes de IA a través de procedimientos complejos con objetivos claros.
 
-Unlike simple one-line prompts, these templates offer complete, battle-tested workflows for specific purposes.
+A diferencia de los prompts simples de una línea, estas plantillas ofrecen flujos de trabajo completos y probados para propósitos específicos.
 
-## Key Features
+## Características Principales
 
-Based on my template structure, you'll find:
+Basándote en mi estructura de plantillas, encontrarás:
 
-- **Complete Metadata** - Name, version, description, and localization
-- **Structured Workflows** - Phased execution with clear progression
-- **Comprehensive Error Handling** - Recovery procedures and validation
-- **Integrated Documentation** - Built-in guidance and examples
-- **Security Considerations** - Safety measures and best practices
-- **Backup Management** - Version control and rollback capabilities
-- **Validation Requirements** - Pre-execution checks and tool verification
+- **Metadatos Completos** - Nombre, versión, descripción y localización
+- **Flujos de Trabajo Estructurados** - Ejecución por fases con progresión clara
+- **Manejo Integral de Errores** - Procedimientos de recuperación y validación
+- **Documentación Integrada** - Guías y ejemplos incorporados
+- **Consideraciones de Seguridad** - Medidas de seguridad y mejores prácticas
+- **Gestión de Backups** - Control de versiones y capacidades de rollback
+- **Requisitos de Validación** - Comprobaciones previas a la ejecución y verificación de herramientas
 
-## AI is Your Co-pilot
+## La IA es Tu Co-piloto
 
-These templates represent the collaborative effort between human expertise and AI assistance. Creating effective prompts requires:
+Estas plantillas representan el esfuerzo colaborativo entre la experiencia humana y la asistencia de IA. Crear prompts efectivos requiere:
 
-- Clear understanding of your objectives
-- Multiple iterations and testing
-- Detailed explanations of workflows
-- Continuous refinement based on results
+- Comprensión clara de tus objetivos
+- Múltiples iteraciones y pruebas
+- Explicaciones detalladas de los flujos de trabajo
+- Refinamiento continuo basado en resultados
 
-While AI accelerates development, it demands precise communication and structured thinking to achieve desired outcomes.
+Si bien la IA acelera el desarrollo, exige una comunicación precisa y un pensamiento estructurado para lograr los resultados deseados.
 
-## 🚀 Quick Setup
+## 🚀 Configuración Rápida
 
-1. Copy `.toml` files from any category to your CLI config directory:
+1. Copia los archivos `.toml` de cualquier categoría a tu directorio de configuración de CLI:
    - `~/.qwen/commands/` (Qwen CLI)
    - `~/.gemini/commands/` (Gemini CLI)
 
-2. Restart your CLI and press `/` to discover new commands
+2. Reinicia tu CLI y presiona `/` para descubrir nuevos comandos
 
-3. Execute templates directly:
+3. Ejecuta las plantillas directamente:
 ```bash
 qwen document-code
 gemini analyze-data
 
 
-## License
+## Licencia
 
-MIT License
+Licencia MIT
