@@ -1,5 +1,6 @@
 [Versión en Español](README_ES.md) | [English Version](README.md)
 
+
 # AI CLI Prompt Templates
 
 Professional collection of refined prompt templates for AI command-line tools.
