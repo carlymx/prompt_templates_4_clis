@@ -67,6 +67,8 @@ Si bien la IA acelera el desarrollo, exige una comunicación precisa y un pensam
 ```bash
 qwen document-code
 gemini analyze-data
+```
+Para SHAI de momento no hay una implementación directa [Lee la aclaración](./shai_import.md)
 
 
 ## Licencia

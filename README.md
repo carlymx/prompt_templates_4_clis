@@ -66,7 +66,9 @@ While AI accelerates development, it demands precise communication and structure
 ```bash
 qwen document-code
 gemini analyze-data
+```
 
+For SHAI, there is no direct implementation at the moment. [Read the explanation](./shai_import.md)
 
 ## License
 
