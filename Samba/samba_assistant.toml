@@ -1,17 +1,15 @@
-# ~/.qwen/commands/samba_assistant.toml
-
 name = "samba_assistant"
-model = "qwen-max"
-
+description = "Plantilla de Asistente para Configuración de Samba"
 prompt = """
-# Plantilla de Asistente para Configuración de Samba
+---
 # Esta plantilla guía al asistente para configurar Samba en un sistema Linux
 
 ## Metadatos
 - Nombre: samba_assistant
 - Versión: 2.0
 - Descripción: Asistente para configurar Samba en sistemas Linux con opción de configuración automática o manual
-- Autor: Qwen CLI
+- Autor: CaRLyMx + Qwen CLI
+- URL: https://github.com/carlymx/prompt_templates_4_clis
 - Locale: es-ES
 
 ## Prompt del Sistema

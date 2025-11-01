@@ -17,6 +17,7 @@ I am not responsible for any outcomes resulting from the use of these prompt tem
 These templates are provided "as-is" for educational and productivity purposes. Since everything is in natural language, I encourage you to **review and modify any command** to fit your specific needs before testing.
 
 Always:
+
 - Review commands before execution
 - Test in safe environments first
 - Maintain adequate backups
@@ -57,16 +58,18 @@ While AI accelerates development, it demands precise communication and structure
 ## 🚀 Quick Setup
 
 1. Copy `.toml` files from any category to your CLI config directory:
+   
    - `~/.qwen/commands/` (Qwen CLI)
    - `~/.gemini/commands/` (Gemini CLI)
 
 2. Restart your CLI and press `/` to discover new commands
 
 3. Execute templates directly:
-```bash
-qwen document-code
-gemini analyze-data
-```
+   
+   ```bash
+   qwen document-code
+   gemini analyze-data
+   ```
 
 For SHAI, there is no direct implementation at the moment. [Read the explanation](./shai_import.md)
 

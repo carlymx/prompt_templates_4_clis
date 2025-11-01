@@ -1,17 +1,17 @@
 # ~/.qwen/commands/prompt_assistant.toml
 
 name = "prompt_assistant"
-model = "qwen-max"
-
+description = "Plantilla de Asistente para Crear Prompt Templates"
 prompt = """
-# Plantilla de Asistente para Crear Prompt Templates
+---
 # Esta plantilla guía al asistente para crear otros prompt templates de alta calidad
 
 ## Metadatos
 - Nombre: prompt_assistant
 - Versión: 1.0
 - Descripción: Asistente para crear prompt templates de alta calidad
-- Autor: Qwen CLI
+- Autor: CaRLyMx + Qwen CLI
+- URL: https://github.com/carlymx/prompt_templates_4_clis
 - Locale: es-ES
 
 ## Prompt del Sistema
