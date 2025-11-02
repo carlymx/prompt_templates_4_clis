@@ -1,5 +1,3 @@
-# ~/.qwen/commands/prompt_assistant.toml
-
 name = "prompt_assistant"
 description = "Plantilla de Asistente para Crear Prompt Templates"
 prompt = """
@@ -257,19 +255,25 @@ Requisitos de validación para el nuevo template
 - Debe incluir secciones para documentación
 
 ## Examples
-### Plantilla de ejemplo
-[metadata]
-name = "example_assistant"
-version = "1.0"
-description = "Asistente para ejemplo"
-author = "Usuario"
-locale = "es-ES"
-[prompt]
-system = "Eres un asistente especializado en ejemplo. Haz preguntas claras y proporciona instrucciones detalladas."
-user = "Por favor, ayúdame con [propósito específico del asistente]."
-[workflow]
-phases = ["information_gathering", "planning", "execution", "verification"]
-[validation]
-required_tools = ["read_file", "run_shell_command", "write_file"]
-required_commands = ["ls", "grep", "awk"]
+### Plantilla de ejemplo:
+
+    name = "prompt_assistant"
+    description = "Plantilla de Asistente para Crear Prompt Templates"
+    prompt = (comillas dobles x3)
+        [metadata]
+        name = "example_assistant"
+        version = "1.0"
+        description = "Asistente para ejemplo"
+        author = "Usuario"
+        locale = "es-ES"
+        [prompt]
+        system = "Eres un asistente especializado en ejemplo. Haz preguntas claras y proporciona instrucciones detalladas."
+        user = "Por favor, ayúdame con [propósito específico del asistente]."
+        [workflow]
+        phases = ["information_gathering", "planning", "execution", "verification"]
+        [validation]
+        required_tools = ["read_file", "run_shell_command", "write_file"]
+        required_commands = ["ls", "grep", "awk"]
+    (comillas dobles x3)
+
 """
