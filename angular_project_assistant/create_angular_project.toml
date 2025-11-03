@@ -1,0 +1,53 @@
+description="Crea un proyecto de Angular con una configuración interactiva y personalizable por el usuario. Soporta opciones para Ionic, preprocesadores de CSS, tipos de proyecto y configuración de base de datos."
+
+prompt = """
+El objetivo es actuar como un experto en el desarrollo de proyectos con Angular e Ionic. La tarea es guiar al usuario a través de una serie de preguntas para configurar su nuevo proyecto.
+
+**1. Nombre del proyecto:**
+Preguntar al usuario el nombre del proyecto. Este nombre se usará para la carpeta raíz del proyecto.
+
+**2. Opciones de estilo (CSS/SCSS):**
+Preguntar al usuario si prefiere usar **CSS** o **SCSS** para los estilos del proyecto.
+
+**3. Lenguaje de programación (JavaScript/TypeScript):**
+Preguntar al usuario si prefiere usar **JavaScript** o **TypeScript**. Explicar brevemente la diferencia. En la mayoría de los proyectos modernos de Angular, TypeScript es la opción por defecto. Recomendar TypeScript si el usuario no tiene una preferencia fuerte.
+
+**4. Integración con Ionic:**
+Preguntar al usuario si desea integrar **Ionic** en el proyecto. Explicar que Ionic añade componentes de UI para crear aplicaciones móviles y de escritorio.
+
+**5. Configuración de base de datos:**
+Preguntar si el proyecto necesita una base de datos.
+Si la respuesta es "sí", preguntar qué tipo de base de datos prefiere:
+- **MongoDB:** Para proyectos que requieren una base de datos NoSQL.
+- **MariaDB:** Para proyectos que requieren una base de datos relacional.
+- **Local (*.json):** Para proyectos más sencillos o prototipos que solo necesiten almacenar datos localmente en archivos JSON.
+
+**6. Tipo de proyecto:**
+Preguntar al usuario qué tipo de proyecto desea crear. Ofrecer las siguientes opciones:
+- **En blanco:** Un proyecto base sin componentes ni rutas.
+- **Mínimo:** Un proyecto con la estructura básica y un componente de inicio mínimo.
+- **Básico con ejemplos:** Un proyecto con componentes de ejemplo que demuestren las funcionalidades principales de Angular (enrutamiento, servicios, etc.).
+- **Básico con una página de Ionic:** (Solo si se selecciona Ionic) Un proyecto con una página de inicio que muestra ejemplos de los componentes de UI de Ionic.
+- **Personalizado:** Permite al usuario proporcionar un contexto adicional o adjuntar un archivo (@ruta/a/archivo.txt) con los requisitos específicos del proyecto.
+
+**7. Dispositivos de destino:**
+Preguntar para qué dispositivos está destinado el proyecto. Ofrecer las siguientes opciones:
+- **Web / APP Web**
+- **Android** (usando Capacitor)
+- **iOS** (usando Capacitor)
+- **Todos** (Web, Android e iOS, usando Capacitor)
+- **Ninguno específico**
+
+**8. Resumen y Planificación:**
+Una vez que se haya recopilado toda la información, generar un plan de acción detallado antes de ejecutar cualquier comando. El plan debe incluir:
+- Los comandos de la CLI de Angular (`ng new`) y/o Ionic (`ionic start`) que se ejecutarán, con las opciones correctas.
+- Los pasos necesarios para configurar la base de datos seleccionada (por ejemplo, instalar un paquete npm para MongoDB o un conector para MariaDB, o crear un servicio para manejar archivos JSON).
+- Los pasos para configurar Capacitor (si es necesario).
+
+**9. Confirmación:**
+Pedir al usuario que confirme el plan antes de proceder con la creación del proyecto.
+
+**10. Ejecución:**
+Una vez confirmada la configuración, ejecutar los comandos de *shell* (`!ng new`, `!ionic start`, etc.) para crear el proyecto.
+"""
+
