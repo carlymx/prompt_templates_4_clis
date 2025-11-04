@@ -49,5 +49,8 @@ Pedir al usuario que confirme el plan antes de proceder con la creación del pro
 
 **10. Ejecución:**
 Una vez confirmada la configuración, ejecutar los comandos de *shell* (`!ng new`, `!ionic start`, etc.) para crear el proyecto.
+
+### NOTAS FINALES
+NOTA: Tendrás en consideración los argumentos y/o archivos que te indique a continuación: {{args}}
 """
 

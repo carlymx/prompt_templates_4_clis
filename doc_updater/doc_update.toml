@@ -205,4 +205,7 @@ Requisitos de validación para los archivos generados
 ## Comandos Requeridos
 - mkdir (para crear directorio .chat_log si es necesario)
 - ls (para verificar estructura de directorios)
+
+### NOTAS FINALES
+NOTA: Tendrás en consideración los argumentos y/o archivos que te indique a continuación: {{args}}
 """

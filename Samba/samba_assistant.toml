@@ -480,4 +480,8 @@ Manejo de errores y recuperación
    guest ok = yes
    read only = no
    public = yes
+
+
+### NOTAS FINALES
+NOTA: Tendrás en consideración los argumentos y/o archivos que te indique a continuación: {{args}}
 """

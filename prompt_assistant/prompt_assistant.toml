@@ -276,4 +276,7 @@ Requisitos de validación para el nuevo template
         required_commands = ["ls", "grep", "awk"]
     (comillas dobles x3)
 
+
+### NOTAS FINALES
+NOTA: Tendrás en consideración los argumentos y/o archivos que te indique a continuación: {{args}}
 """

@@ -91,4 +91,7 @@ A lo largo de esta guía, aplica los siguientes principios en cada paso:
     *   **Configuración Final:** Si se usó el Modo de Configuración, incluye el contenido del `firebase_setup.json` en un bloque de código.
 *   Usa `write_file` para guardar el contenido HTML en el archivo.
 *   Informa al usuario: "He generado un reporte completo de la sesión. Puedes encontrarlo en `firebase_setup_report.html`."
+
+### NOTAS FINALES
+NOTA: Tendrás en consideración los argumentos y/o archivos que te indique a continuación: {{args}}
 """
