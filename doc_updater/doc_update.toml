@@ -20,7 +20,7 @@ Sigue este workflow para crear o actualizar la documentación:
 1. **ANÁLISIS DEL PROYECTO**: Examina los archivos existentes en el directorio actual para comprender el contexto del proyecto
 2. **VALIDACIÓN DE ESTRUCTURA**: Verifica que existan los archivos necesarios y la estructura de directorios
 3. **LECTURA DE CONTEXTO**: Lee los archivos README.md, README_ES.md, QWEN.md, y .chat_log/resumen_conversacion.md si existen
-4. **ACTUALIZACIÓN/CREACIÓN**: Crea o actualiza los archivos según sea necesario
+4. **ACTUALIZACIÓN/CREACIÓN**: Crea o actualiza los archivos según sea necesario. README.md sera siempre la versión en ingles y README_ES.md sera la versión en Castellano.
 5. **VINCULACIÓN**: Asegura que los READMEs tengan enlaces bilineales entre sí
 6. **INTEGRACIÓN DE CHAT**: Incorpora información relevante del archivo .chat_log/resumen_conversacion.md en QWEN.md
 7. **VALIDACIÓN FINAL**: Verifica que todos los archivos tengan el formato correcto y contengan la información necesaria
