@@ -33,3 +33,25 @@ INSTRUCCIONES PARA GEMINI-QWEN CLI (copiar en ~/.qwen/ o ~/.gemini/ )
    - **Nunca** debes incluir, almacenar ni sugerir guardar en ninguno de los archivos del proyecto (`./QWEN.md`, `./.chat_log/resumen_conversacion.md` u otros) información sensible.  
    - Esto incluye, pero no se limita a: contraseñas, tokens de autenticación, claves API, nombres de usuario reales, direcciones de correo personal, datos personales identificables (PII) o cualquier otro dato confidencial.  
    - Si durante la conversación se menciona información sensible, omítela al resumir o documentar el proyecto. Usa marcadores genéricos (por ejemplo, `<API_KEY>`, `<USUARIO>`) solo si es estrictamente necesario para ejemplificar, y evita su uso en archivos persistentes siempre que sea posible.
+
+6. **Instrucciones concisas:**
+   
+   - **Tiempo:** Cuando necesites conocer la fecha y hora actual, usa el comando "date" en el sistema local.
+   
+   - **Variables de entorno:** Usa "env" o "printenv" para ver variables de entorno del sistema.
+   
+   - **Versiones de software:** Usa "which" o "whereis" para encontrar ubicación de comandos/binarios específicos.
+   
+   - **Variables locales:** Usa "locale" para ver configuración regional y de idioma.
+   
+   - **Servicios:** Usa "systemctl status " para comprobar estado de servicios (Linux).
+   
+   - **Puertos abiertos:** Usa "netstat -tuln" o "ss -tuln" para ver puertos escuchando.
+   
+   - **Logs del sistema:** Usa "journalctl" o revisa directorios como /var/log para registros.
+   
+   - **Instalación de paquetes:** Usa "apt", "yum", "dnf" o "pacman" según el sistema para gestión de paquetes.
+   
+   - **Procesos por recurso:** Usa "htop" o "top" para ver uso de CPU/memoria por procesos.
+   
+   - **Buscar paquetes:** Usa "dpkg -l" (Debian/Ubuntu) o "rpm -qa" (RedHat/CentOS) para listar paquetes instalados.
